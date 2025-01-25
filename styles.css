@@ -1,0 +1,661 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: 'Google Sans';
+    src: url('fonts/GoogleSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('fonts/GoogleSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Google Sans', Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.body{
+    background-color: white;
+}
+.navig{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.btn1{
+    padding-top: 20px;
+    padding-left: 80px;
+
+}
+.txt1{
+    padding-top: 20px;
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+
+.navig2{
+    width: 100%;
+    height: auto 560px;
+}
+.content{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(198, 228, 214);
+}
+.txt2{
+    /* padding-left: 100px;
+    padding-top: 80px;
+    justify-content:space-between; */
+    /* Idea , innovation , vision and challenges in New Bangladesh. */
+position: static;
+width: 622px;
+height: 201px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.txt3{
+    padding-left: 80px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.txt4{
+    padding-left: 80px;
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.img1{
+    padding-left: 800px;
+    height: 80px;
+    position: absolute;
+    width: 65%;
+    padding-top: 20px;
+
+}
+
+.txt5{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.card1{
+/* Frame 2087325495 */
+position: static;
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.card2{
+    /* Frame 2087325495 */
+    position: static;
+    width: 302px;
+    height: 244px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+    background: rgb(255, 255, 255);
+    }
+
+    .card3{
+        /* Frame 2087325495 */
+        position: static;
+        width: 302px;
+        height: 244px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 24px;
+        
+        
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 24px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        
+        background: rgb(255, 255, 255);
+        }
+
+        .card4{
+            /* Frame 2087325495 */
+            position: static;
+            width: 302px;
+            height: 244px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 24;
+            padding: 24px;
+            
+            
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 24px;
+            box-sizing: border-box;
+            border: 1px solid rgba(14, 14, 14, 0.15);
+            border-radius: 16px;
+            
+            background: rgb(255, 255, 255);
+            }
+
+            .card_1{
+                padding-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 16px;
+            margin: 0%;
+            }
+            .card_2{
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 0px;
+                margin: 0%;
+            }
+
+            .card2{
+    /* Frame 2087325495 */
+    position: static;
+    width: 302px;
+    height: 244px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+    background: rgb(255, 255, 255);
+    }
+
+    .card3{
+        /* Frame 2087325495 */
+        position: static;
+        width: 302px;
+        height: 244px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24;
+        padding: 24px;
+        
+        
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 24px;
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+        
+        background: rgb(255, 255, 255);
+        }
+
+        .card4{
+            /* Frame 2087325495 */
+            position: static;
+            width: 302px;
+            height: 244px;
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 24;
+            padding: 24px;
+            
+            
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 24px;
+            box-sizing: border-box;
+            border: 1px solid rgba(14, 14, 14, 0.15);
+            border-radius: 16px;
+            
+            background: rgb(255, 255, 255);
+            }
+
+
+
+            .card5{
+/* Frame 2087325495 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+                }
+            
+                .card6{
+                    /* Frame 2087325495 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+                    }
+            
+                    .card7{
+                        /* Frame 2087325495 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+                        }
+
+                        .txt14{
+                            padding-top: 30px;
+                            font-weight: bold;
+                            font-size: 40px;
+                            color: black;
+                        }
+
+                        .img2{
+                            padding-top: 2px;
+                        }
+
+                        .txt4 , .txt5 , .txt6 , .txt7 , .txt8 , .txt9 ,  .txt10 , .txt11 , .txt12 , .txt13 , .txt15 , .txt16 , .txt17 , .txt18 , .txt19 , .txt20{
+                            padding-top: 20px;
+                        }
+
+                        .txt6 , .txt8 , .txt10 , .txt12 , .txt15 , .txt17, .txt19{
+                            font-size: 20px;
+                            color: black;
+                            font-weight: bold;
+                        }
+                        .box1{/* Frame 2087325495 */
+                            position: static;
+                            width: 100%;
+                            height: 200px;
+                            /* Auto layout */
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            gap: 4px;
+                            padding: 48px 24px 48px 24px;                           
+                            /* Inside Auto Layout */
+                            flex: none;
+                            order: 0;
+                            flex-grow: 1;
+                            margin-top: 25px;                            
+                            /* width: 100%;
+                            padding-top: 40px;
+                            padding-left: 20px;
+                            background-color: 1px	Inside
+                            rgba(14, 14, 14, 0.15);
+                            border-radius: 10px; */
+                            box-sizing: border-box;
+                            border: 1px solid rgba(14, 14, 14, 0.15);
+                            border-radius: 16px;
+                            background: rgb(255, 255, 255);
+                        }
+                        .img3{
+                            position: absolute;
+                            padding-top: 2px;
+                        }
+                        .card_sec{
+                            gap: 10px;
+                        }
+
+                        .table-container {
+                            width: 100%;
+                            margin: 5px auto;
+                            border: 1px solid #ddd;
+                            border-radius: 8px;
+                            overflow: hidden;
+                            background-color: #fff;
+                        }
+                        
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                        }
+                        
+                        thead {
+                            background-color: rgb(198, 228, 214);
+                        }
+                        
+                        thead th {
+                            padding: 12px;
+                            text-align: left;
+                            font-weight: bold;
+                            color:black;
+                            border-bottom: 2px solid #ddd;
+                        }
+                        
+                        tbody td {
+                            padding: 12px;
+                            font-weight: bold;
+                            color:black;
+                            border-bottom: 1px solid #ddd;
+                        }
+                        
+                        tbody tr:last-child td {
+                            border-bottom: none;
+                        }
+                        
+                        select {
+                            padding: 8px;
+                            font-size: 14px;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            background-color: #f9f9f9;
+                        }
+                        
+                        tbody tr:hover {
+                            background-color: #f1f1f1;
+                        }
+
+                        .text1{
+                            font-size: 40px;
+                            font-weight: bold;
+                            color: black;padding-top: 30px;
+                        }
+                        .box2{
+                            padding-top: 20px;
+                            background-color: rgb(255, 255, 255);
+                            border-radius: 16px;
+
+
+                        }
+                        .text2{
+                            font-size: 40px;
+                            font-weight: bold;
+                            color: black;
+                        }
+                        .text3{
+                            color: rgba(14, 14, 14, 0.7);
+                        font-family: Fira Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        padding-top: 10px;
+                        }
+
+
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 20px;
+                            background-color: #f9f9f9;
+                        }
+                        
+                        .news-card {
+                            display: flex;
+                            width: 100%;
+                            height: 402px;
+                            margin: 0 auto;
+                            background-color: #fff;
+                            border: 1px solid #ddd;
+                            border-radius: 12px;
+                            overflow: hidden;
+                            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                            
+                        }
+                        
+                        .news-image img {
+                            width: 100%;
+                            height: 389px;
+                            object-fit: cover;
+                            border: 1px;
+                            border-radius: 25px;
+                            padding-top: 8px;
+                            padding-left: 8px;
+                        }
+                        .news-image {
+                            flex: 1 1 50%;
+                        }
+                        
+                        .news-content {
+                            flex: 1 1 50%;
+                            padding: 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                        }
+                        
+                        .news-content h1 {
+                            font-size: 30px;
+                            font-weight: bolder;
+                            color: #333;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .news-source {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .news-source img {
+                            height: 24px;
+                        }
+                        
+                        .news-source span {
+                            font-size: 14px;
+                            color: #007BFF; /* Example color for Al Jazeera */
+                            font-weight: bold;
+                        }
+                        
+                        .news-date-time {
+                            font-size: 14px;
+                            color: #555;
+                            margin-bottom: 15px;
+                        }
+                        
+                        .news-date-time span {
+                            margin-right: 20px;
+                        }
+                        
+                        .news-description {
+                            font-size: 16px;
+                            color: #555;
+                            margin-bottom: 20px;
+                            line-height: 1.6;
+                        }
+                        
+                        .read-more {
+                            display: inline-block;
+                            padding: 10px 20px;
+                            font-size: 16px;
+                            color: #fff;
+                            background-color: #047857; /* Green color */
+                            border: none;
+                            border-radius: 4px;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none;
+                        }
+                        
+                        .read-more:hover {
+                            background-color: #065f46; /* Darker green on hover */
+                        }
+
+                        .news-sec{
+                            /* Frame 2087325509 */
+                        position: static;
+                        width: 100%;
+                        height: 402px;
+                        /* Auto layout */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 32;
+                        /* padding: 48px; */
+
+
+                        /* Inside Auto Layout */
+                        flex: none;
+                        order: 0;
+                        align-self: stretch;
+                        flex-grow: 0;
+                        margin: 24px 0px;
+                        }
+
+                        .btn-Read_more{
+                            width: 20%;
+                            padding-left: 19px;
+                            color:white;
+                            background-color: rgb(0, 106, 80);
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .read{
+                            padding-left:10px;
+                        
+                            
+                        }
+
+
+
+

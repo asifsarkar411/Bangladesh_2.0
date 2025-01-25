@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:, ; */
+}
+
+body{
+    /* background-color: rgb(f1 f2 f3); */
+    background: rgb(245, 245, 245);
+}
+
+/* #header{
+    display: flex;
+} */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.Banner-Section{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 560px;
+}
+
+.Banner-description{
+   /* Frame 3 */
+position: static;
+width: 541px;
+height: 326px;
+/* Auto layout */
+/* display: flex; */
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding-top: 90px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 64px;
+}
+
+.Banner-description .title{
+    font-size: 48px;
+
+}
+
+.Banner-Section  .btn > button{
+    border: none;
+    width: 190px;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.Banner-Section .Banner-description .btn{
+    margin-top: 31px;
+}
+
+
+.Banner-description .sub_title{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+
+/* Bangladesh 2.0 */
+position: static;
+width: 622px;
+height: 29px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.Banner-description .title{
+
+    /* Idea , innovation , vision and challenges in New Bangladesh. */
+position: static;
+width: 622px;
+height: 201px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.Banner-image{
+    /* Group */
+/* position: absolute; */
+    width: 474.03px;
+    height: 329.21px;
+    left: 157.37%;
+    right: -157.37%;
+    top: 20%;
+    bottom: -2.3%;
+    background-size: cover;
+}
+
+.Banner-image img{
+    margin-top: 80px;
+}
+
+
+/* The Vision of Future  section*/
+
+#Vision{
+    margin-top: 90px;
+    text-align: justify;
+    
+}
+
+.Vision-head{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Vision-subtitle{
+    margin-top: 30px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Vision-card{
+    display: flex;
+    margin-top: 50px;
+}
+
+.card-content{
+    padding: 26px;
+}
+
+.card-1{
+    margin-left: 0px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-1 img{
+    margin-bottom: 22px;
+}
+.card-2 img{
+    margin-bottom: 20px;
+}
+.card-3 img{
+    margin-bottom: 22px;
+}
+.card-2{
+    margin-left: 22px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.card-3{
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Vision-card .card-1 button{
+    
+    border: none;
+}
+
+.Vision-card .card-1 .btn{
+    
+    margin: 40px 0px 14px;
+}
+
+.Vision-card .card-1 .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(84, 144, 245);
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+.Vision-card .card-2 button{
+    
+    border: none;
+}
+
+.Vision-card .card-2 .btn{
+    
+    margin: 40px 0px 14px;
+}
+
+.Vision-card .card-2 .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(9, 161, 92);
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+.Vision-card .card-3 button{
+    
+    border: none;
+}
+
+.Vision-card .card-3 .btn{
+    
+    margin: 40px 0px 14px;
+}
+
+.Vision-card .card-3 .btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(255, 194, 57);
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+
+/* Dr. Muhammad Yunus part */
+
+#Dr-Yunus{
+    margin-top: 85px;
+  
+}
+
+
+.Dr-content{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px; 
+}
+
+.Dr-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px 15px
+}
+
+.Dr-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Dr-designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+/* recent news section */
+
+
+#Recent-News{
+    margin-top: 85px;
+}
+
+.news{
+    
+}
+
+.news-head{
+    /* margin-top: 100px; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.news-body{
+    margin-top: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.news-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.news-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 22px;
+}
+
+
+.image-part img{
+    border-radius: 24px;
+    width: 380px;
+    height: 301px;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.news-body{
+    display: flex;
+    margin-top: 27px;
+}
+
+
+.description-part{
+    margin-left: 32px;
+    margin-top: 60px;
+}
+
+.d-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.description-part img{
+    margin-top: 10px;
+}
+
+.date-time{
+    display: flex;
+    padding-right: 20px;
+    margin: 10px 0px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.description-part p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.date-time .date{
+    padding-right: 20px;
+}
+
+.d-btn{
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-top: 23px;
+    background: rgb(0, 106, 80);
+}
+.d-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+ /* card-2  */
+
+
+
+ #Recent-News2{
+
+ }
+
+
+.con{
+    display: flex;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.d-title2{
+
+}
+
+.date-time2{
+
+}
+
+.date2{
+
+}
+.sub{
+
+}
+
+.d-btn{
+
+}
+.d-image-part{
+
+}
+.d-image-part img{
+    border-radius: 24px;
+    width: 380px;
+    height: 301px;
+    margin-top: 50px;
+}
+
+
+.d-part{
+    /* Frame 2087325499 */
+position: static;
+width: 744px;
+height: 210px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
+.d-image-part{
+    /* image 3 */
+position: static;
+width: 408px;
+height: 306px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 32px;
+}
+
+
+
+/* donate section  */
+
+
+#Donate{
+
+}
+
+.donate-head{
+
+}
+.donate-head h1{
+    text-align: center;
+}
+.donate-head p{
+text-align: justify;
+}
+
+
+.donate-card{
+    display: flex;
+    text-align: center;
+    
+}
+
+.donate-card .card1{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: static;
+    width: 190px;
+    height: 71px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 24;
+    padding: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 190px;
+    text-align: center;
+
+}
+.donate-card .card2{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: static;
+    width: 190px;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 24;
+    padding: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    text-align: center;
+    margin-left: 28px;
+
+}
+.donate-card .card3{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: static;
+    width: 190px;
+    height: 71px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 24;
+    padding: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    text-align: center;
+
+}
+.donate-card .card4{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: static;
+    width: 190px;
+    height: 71px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 24;
+    padding: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    text-align: center;
+
+}
+
+
+.input{
+    border: none;
+    padding: 10px 20px;
+}
